@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexBox Property</title>
+
+    <style>
+      .container {
+        height: 200px;
+        width: 300px;
+        background-color: #d6d2d2;
+        font-size: 18px;
+        margin: 20px;
+        display: flex;
+        align-items: stretch;
+        gap: 10px;
+        justify-content: flex-start;
+      }
+      .el1 {
+        background-color: red;
+        align-self: self-start;
+      }
+      .el2 {
+        background-color: gray;
+        align-self: baseline;
+      }
+      .el3 {
+        background-color: green;
+        align-self: self-end;
+      }
+      .el4 {
+        background-color: yellow;
+        align-items: flex-start;
+      }
+      .el5 {
+        background-color: purple;
+        align-items: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="el1">HTML</div>
+      <div class="el2">CSS</div>
+      <div class="el3">JS</div>
+      <div class="el4">REACT</div>
+      <div class="el5">ANGULAR</div>
+    </div>
+  </body>
+</html>

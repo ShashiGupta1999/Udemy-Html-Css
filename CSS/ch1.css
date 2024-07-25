@@ -1,0 +1,10 @@
+aside {
+  background-color: #fff;
+  border: 2px #1098ad;
+}
+.related {
+  list-style: none;
+}
+aside li a:link {
+  color: rgb(205, 75, 55);
+}

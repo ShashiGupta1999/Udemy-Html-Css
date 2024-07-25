@@ -1,0 +1,146 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  position: relative;
+  width: 100%;
+}
+.main-header {
+  padding: 5px;
+  background-color: black;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 640px;
+}
+h1 {
+  color: white;
+  font-size: 26px;
+}
+/* h1::after {
+  content: "TOP";
+  background-color: yellow;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  left: 80%;
+  top: -20px;
+} */
+/* nav {
+  float: right;
+  position: absolute;
+  top: 30px;
+  left: 850px;
+} */
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+/* persudo code */
+li:first-child {
+  font-style: italic;
+  color: red;
+}
+li:last-child {
+  color: blue;
+}
+
+li:nth-child(2) {
+  color: green;
+}
+a {
+  color: white;
+  font-weight: bold;
+}
+a:hover {
+  color: blue;
+  font-weight: bold;
+}
+
+.p1,
+.p2 {
+  padding-bottom: 20px;
+}
+
+nav a:link {
+  margin-right: 20px;
+  text-decoration: none;
+}
+button {
+  position: absolute;
+  left: 90%;
+}
+
+article {
+  width: 70%;
+}
+
+/* Floats */
+/* aside {
+  width: 25%;
+  float: right;
+  position: absolute;
+  bottom: 450px;
+  left: 900px;
+  box-sizing: content-box;
+  background-color: rgb(245, 234, 234);
+  border: 4px solid rgb(68, 199, 199);
+  justify-content: center;
+  align-items: center;
+} */
+/* .contain-main {
+  width: auto;
+}
+.detail {
+  width: 50%;
+}
+.detail-p {
+  justify-content: left;
+} */
+
+/* flex */
+.contain-main {
+  display: flex;
+  background-color: antiquewhite;
+  border-top: 4px solid green;
+  border-bottom: 4px solid green;
+}
+aside {
+  margin-top: 40px;
+  width: 320px;
+  height: 50%;
+  background-color: rgb(183, 213, 239);
+  border-top: 4px solid orange;
+  border-bottom: 4px solid orange;
+}
+/* grid */
+.related {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  column-gap: 25px;
+  align-content: center;
+}
+aside li a:link {
+  color: blue;
+  text-decoration: none;
+  display: flex;
+}
+aside li p {
+  color: black;
+}
+
+footer {
+  background-color: yellow;
+}
+/* aside li p {
+  position: absolute;
+  right: 80px;
+  top: 100px;
+} */

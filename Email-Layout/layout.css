@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vh;
+  font-family: "Rubik", sans-serif;
+}
+.main-container {
+  background-color: #e9ecef;
+  width: fit-content;
+  height: 700px;
+}
+nav {
+  width: 220vh;
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+  background-color: #7048e8;
+}
+.links {
+  margin: 10px;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  background-color: #5f3dc4;
+  margin: 10px;
+}
+.trash {
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  background-color: #c114ad;
+}
+section {
+  display: grid;
+  grid-template-columns: 300px 780px 300px;
+  column-gap: 30px;
+  height: 600px;
+}
+.emails {
+  overflow: scroll;
+  padding-right: 20px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  padding-left: 20px;
+  background-color: #e9ecef;
+  font-weight: 700;
+}
+.email1 {
+  text-align: center;
+  padding: 20px 30px;
+  background-color: rgb(174, 174, 174);
+}
+.view {
+  padding-top: 20px;
+  text-align: center;
+  background-color: aliceblue;
+  font-weight: 700;
+}
+.add-info {
+  padding-top: 20px;
+  font-weight: 700;
+
+  text-align: center;
+  background-color: #e9ecef;
+}
